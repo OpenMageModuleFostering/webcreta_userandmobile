@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Webcreta_UserandMobile>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>0.1.0</version>
+    </Webcreta_UserandMobile>
+  </modules>
+</config>

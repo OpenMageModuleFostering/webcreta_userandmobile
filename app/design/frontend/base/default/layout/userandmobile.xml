@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+    </default>
+    <customer_account_create>
+        <reference name="customer_form_register">
+            <action method="setTemplate" ifconfig="userandmobile/usermobile/enable"><template>userandmobile/register.phtml</template></action>
+        </reference>
+    </customer_account_create>
+	<customer_account_login>
+        <reference name="customer_form_login">
+            <action method="setTemplate" ifconfig="userandmobile/usermobile/enable"><template>userandmobile/login.phtml</template></action>
+        </reference>
+    </customer_account_login>
+	<customer_account_edit>
+        <reference name="my.account.wrapper" ifconfig="userandmobile/usermobile/enable">
+            <block type="customer/form_edit" name="customer_edit" template="userandmobile/edit.phtml"/>
+        </reference>
+    </customer_account_edit>
+	<checkout_onepage_index>
+        <reference name="checkout.onepage.login">
+            <action method="setTemplate" ifconfig="userandmobile/usermobile/enable"><template>userandmobile/checkout/onepage/login.phtml</template></action>
+        </reference>
+		<reference name="checkout.onepage.billing">
+            <action method="setTemplate" ifconfig="userandmobile/usermobile/enable"><template>userandmobile/checkout/onepage/billing.phtml</template></action>
+        </reference>
+    </checkout_onepage_index>
+</layout>
