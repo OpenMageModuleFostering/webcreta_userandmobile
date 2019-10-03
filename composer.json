@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Webcreta_UserandMobile",
+    "name": "OpenMageModuleFostering\/Webcreta_UserandMobile",
     "type": "magento-module",
     "license": "OSL-v3.0",
     "homepage": "",
     "description": "This extension will help you to let customer login with email or mobile number and password.",
     "authors": [
-    {
-        "name": "WebCreta",
-        "email": "webcreta@gmail.com"
-    }
-],
+        {
+            "name": "WebCreta",
+            "email": "webcreta@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
